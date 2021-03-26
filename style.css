@@ -1,3 +1,14 @@
 body {
   background-color: sandybrown;
 }
+
+h1 {
+  font-size: 25px;
+  text-align: center;
+  color: aquamarine;
+}
+
+p {
+  text-align: center;
+  color: blue;
+}
