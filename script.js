@@ -6,7 +6,6 @@ let counter = 0
 let answer = 0
 let negative = false
 
-
 function calculate () {
   answer = 0
   firstNum = document.getElementById('first').value
@@ -28,10 +27,10 @@ function calculate () {
   for (counter = 0; counter < firstNum; counter++) {
     answer = answer + secondNum
      }
-
+  
   if (negative) {
     answer = 0 - answer
   }
      document.getElementById('answer').innerHTML = answer
   }
-  
+
